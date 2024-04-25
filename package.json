@@ -1,0 +1,36 @@
+{
+  "name": "svg-creator",
+  "version": "1.0.0",
+  "description": "a command line svg-creator",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cawooda/svg-creator.git"
+  },
+  "keywords": [
+    "svg",
+    "command",
+    "line",
+    "edx",
+    "bootcamp",
+    "monash"
+  ],
+  "author": "Andrew Cawood",
+  "license": "CC-BY-1.0",
+  "bugs": {
+    "url": "https://github.com/cawooda/svg-creator/issues"
+  },
+  "homepage": "https://github.com/cawooda/svg-creator#readme",
+  "dependencies": {
+    "inquirer": "8.2.4",
+    "jest": "^29.7.0"
+  }
+}
