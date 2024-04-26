@@ -1,7 +1,10 @@
 const CLI = require('./lib/CLI');
+const storeSVG = require('./lib/storage');
 
-function main() {
-    cli = new CLI();
+async function main() {
+    renderedLogo = await new CLI();
+    if (renderedLogo) storeSVG(renderedLogo);
+    
 }
 
 main();
