@@ -12,7 +12,7 @@ async function main() {
     console.log("return object of CLI",userInput);
     
     if (storeSVG(userInput.renderedLogo)) {
-        console.log("file stored");
+        console.log("Generated logo.svg");
     } else console.log("file not stored");
     
 }
