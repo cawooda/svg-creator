@@ -9,7 +9,6 @@ async function main() {
         console.log("userInput.result", userInput.result, "with reason being: ",userInput.reason);
     }
     
-    console.log("return object of CLI",userInput);
     
     if (storeSVG(userInput.renderedLogo)) {
         console.log("Generated logo.svg");
